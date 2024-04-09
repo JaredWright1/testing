@@ -1,20 +1,81 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>GitHub Login</title>
+    <title>Advanced CSS/HTML Demo</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div id="container">
-      <h1>Welcome to GitHub!</h1>
-      <form id="login-form">
-        <label for="username">Username:</label><br>
-        <input type="text" id="username" name="username"><br>
-        <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password"><br>
-        <input type="submit" value="Log In">
+    <header>
+      <h1>Advanced CSS/HTML Demo</h1>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li>
+          <h3>Fully Responsive</h3>
+          <p>
+            This website looks great on any device, including smartphones, tablets, and desktops.
+          </p>
+        </li>
+        <li>
+          <h3>Interactive Elements</h3>
+          <p>
+            Use CSS animations and transitions to create interactive elements that engage users.
+          </p>
+        </li>
+        <li>
+          <h3>Advanced Layouts</h3>
+          <p>
+            Utilize CSS Grid and Flexbox to create complex, multi-column layouts with ease.
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section id="pricing">
+      <h2>Pricing</h2>
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Basic</th>
+            <th>Pro</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monthly Cost</td>
+            <td>$9.99</td>
+            <td>$29.99</td>
+          </tr>
+          <tr>
+            <td>Features</td>
+            <td>Limited</td>
+            <td>Unlimited</td>
+          </tr>
+          <tr>
+            <td>Support</td>
+            <td>Email</td>
+            <td>Phone & Email</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br>
+        <input type="submit" value="Send">
       </form>
-    </div>
-    <script src="script.js"></script>
+    </section>
   </body>
 </html>
